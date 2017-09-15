@@ -32,6 +32,7 @@
 		var standardWeight = (height - 100) * 0.9;
 		var dietWeight = weight - standardWeight;
 		var fatRate = (weight / standardWeight)*10;
+		//Math.ceil(a)
 		var text = "당신의 표준 체중은" + standardWeight + "kg입니다.따라서 당신은 " + dietWeight + "kg을 감량해야합니다." + "현재 비만도는 " + fatRate + "%입니다.";
 		display.innerHTML = text;
 
